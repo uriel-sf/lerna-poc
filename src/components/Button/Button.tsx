@@ -1,5 +1,5 @@
-import React from 'react';
+import styled from 'styled-components';
 
-const Button = () => <button>This is button</button>;
+const Button = styled.button``;
 
 export default Button;
