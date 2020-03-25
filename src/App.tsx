@@ -1,15 +1,8 @@
-import React from 'react';
-import Button from './components/Button';
-import { ThemeProvider } from './components/Theme';
-import Text from './components/Text';
+import React from "react";
+import { Button } from "my-awesome-lib-button";
 
 function App() {
-  return (
-    <ThemeProvider>
-      <Text>This is text component</Text>
-      <Button>This is button component</Button>
-    </ThemeProvider>
-  );
+  return <Button>Test</Button>;
 }
 
 export default App;
