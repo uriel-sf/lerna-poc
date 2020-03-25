@@ -1,1 +1,1 @@
-# MGM UI Components
+# UI Components
