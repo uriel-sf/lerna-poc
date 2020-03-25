@@ -1,11 +1,3 @@
-import pkg from "./package.json";
-import typescript from "rollup-plugin-typescript2";
+import defaultRollupConfig from "../../rollup.config.js";
 
-module.exports = {
-  input: "src/index.ts",
-  output: {
-    file: pkg.main,
-    format: "cjs"
-  },
-  plugins: [typescript()]
-};
+export default defaultRollupConfig();

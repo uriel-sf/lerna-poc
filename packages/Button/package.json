@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "build-package": "rollup --config"
   },
@@ -19,6 +20,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rollup": "^2.2.0",
+    "rollup-plugin-dts": "^1.3.0",
     "rollup-plugin-typescript2": "^0.26.0",
     "typescript": "^3.8.3"
   }
