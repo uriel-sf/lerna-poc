@@ -6,14 +6,14 @@ export default () => [
   {
     input: "src/index.ts",
     output: {
-      file: pkg.main,
+      file: "./lib/index.js",
       format: "cjs"
     },
     plugins: [typescript()]
   },
   {
     input: "src/index.ts",
-    output: [{ file: pkg.types, format: "cjs" }],
+    output: [{ file: "./lib/index.d.ts", format: "cjs" }],
     plugins: [dts()]
   }
 ];
