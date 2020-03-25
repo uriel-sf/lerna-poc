@@ -5,7 +5,8 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build-package": "rollup --config"
+    "build-package": "rollup --config",
+    "prepublish": "npm run build-package"
   },
   "keywords": [],
   "author": "",
