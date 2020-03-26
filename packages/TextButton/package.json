@@ -1,6 +1,6 @@
 {
   "name": "my-awesome-lib-text-button",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -26,8 +26,8 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "my-awesome-lib-button": "^1.1.1",
-    "my-awesome-lib-text": "^1.4.0"
+    "my-awesome-lib-button": "^1.4.1",
+    "my-awesome-lib-text": "^1.8.1"
   },
   "gitHead": "e19006c0a7e3696ea05f049b0a9eea49cdf34324"
 }
