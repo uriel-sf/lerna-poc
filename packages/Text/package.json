@@ -1,7 +1,7 @@
 {
   "name": "my-awesome-lib-text",
   "private": true,
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
