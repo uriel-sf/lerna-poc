@@ -6,7 +6,7 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "build-package": "rollup --config",
-    "prepublish": "npm run build-package"
+    "prepare": "npm run build-package"
   },
   "keywords": [],
   "author": "",
