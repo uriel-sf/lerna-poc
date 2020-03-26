@@ -4,7 +4,7 @@ import { TextButton } from "my-awesome-lib-text-button";
 import { ThemeProvider } from "styled-components";
 
 const theme = {
-  main: "red"
+  main: "blue"
 };
 
 function App() {
