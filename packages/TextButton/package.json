@@ -15,18 +15,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "devDependencies": {
-    "@types/react": "^16.9.25",
-    "@types/react-dom": "^16.9.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "rollup": "^2.2.0",
-    "rollup-plugin-dts": "^1.3.0",
-    "rollup-plugin-typescript2": "^0.26.0",
-    "typescript": "^3.8.3"
-  },
   "dependencies": {
-    "my-awesome-lib-button": "^1.1.1",
-    "my-awesome-lib-text": "^1.4.0"
+    "my-awesome-lib-button": "file:../Button",
+    "my-awesome-lib-text": "file:../Text"
   }
 }
