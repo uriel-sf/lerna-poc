@@ -22,8 +22,8 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "my-awesome-lib-button": "^1.5.1",
-    "my-awesome-lib-text": "^1.9.1"
+    "my-awesome-lib-button": "https://github.com/uriel-sf/lerna-poc.git#my-awesome-lib-button@1.5.1",
+    "my-awesome-lib-text": "https://github.com/uriel-sf/lerna-poc.git#my-awesome-lib-test@1.9.1"
   },
   "gitHead": "e19006c0a7e3696ea05f049b0a9eea49cdf34324"
 }
